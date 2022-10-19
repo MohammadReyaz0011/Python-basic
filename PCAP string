@@ -1,0 +1,51 @@
+python String: A="ABCDEFGHIJKLMNOP"
+
+indexing A[1]
+
+slicing A[1:7]
+
+in and not in:
+
+A + "Z":
+
+ord()
+
+chr()
+
+min() max()
+
+A.index("D")
+
+list(A)
+
+A.count("D")
+
+A.capitilize()
+
+print("["+A.center(10)+"]")
+
+print("omega".startswith("meg")) print("omega".startswith("om")) A.endswith("NOP")
+
+A.find("MNOP")
+
+A.isalnum() A.is alpha() A.isdigit()
+
+A.islower() A.isspace() A.isupper()
+
+print(",".join(["omicron", "pi", "rho"]))
+
+A.lower() A.upper() A.swapcase() A.title()
+
+print("[" + " tau ".lstrip() + "]") print("www.cisco.com".lstrip("w.")) print("[" + " upsilon ".rstrip() + "]") print("cisco.com".rstrip(".com"))
+
+print("[" + " aleph ".strip() + "]")
+
+print("This is it!".replace("is", "are")) print("Apple juice".replace("juice", ""))
+
+print("tau tau tau".rfind("ta")) print("tau tau tau".rfind("ta", 9)) print("tau tau tau".rfind("ta", 3, 9))
+
+print("phi chi\npsi".split())
+
+'10' == '010'
+'10' > '010' '10' > '8' '20' < '8' '20' < '80' False True False True True
+
